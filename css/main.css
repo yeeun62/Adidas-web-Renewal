@@ -1,0 +1,95 @@
+/* mainvisual */
+.mainvisual{text-align: center;}
+.slider img{width: 100%}
+
+.bx-wrapper{border: none; box-shadow: none; background: none;}
+.mainvisual{position: relative;}
+.pager{position: absolute; width: 100%; height: 30px; bottom: 0px; text-align: center;}
+.pager ul li{display: inline-block; width: 20px; height: 10px; background: #fff; margin: 5px; border-radius: 5px;}
+.pager ul li a{display: block; height: 10px; text-indent: -9999px;}
+.pager ul li a.active{background: #ff9696; border-radius: 5px;}
+
+.control a{display: block; width: 55px; height: 174px; position: absolute; top: 50%; transform: translateY(-50%); text-indent: -9999px;}
+.control a#prevbtn{left: 30px; background: url(../img/main/arrow_prev.png) no-repeat;}
+.control a#nextbtn{right: 30px; background: url(../img/main/arrow_next.png) no-repeat;}
+
+
+/* best_item */
+.best_item{margin-top: 120px;}
+.best_txt{float: left;}
+.best_txt h2{float: left; font-size: 24px; color: #333; margin-right: 14px; font-weight: 700;}
+.best_txt p{float: left; font-size: 20px; color: #666; line-height: 1.3;}
+.kategorie{float: right;}
+.kategorie li{float: left; margin-left: 20px;}
+.kategorie li a{display: block; font-size: 18px; color: #888; line-height: 1.3;}
+.kategorie li a:hover{color: #333;}
+
+.item{margin-top: 60px; padding: 0 38px;}
+.item_arrow{float: left; margin-top: 60px;}
+#arrow_left{margin-right: 70px;}
+.item_list li{float: left; margin-right: 60.25px;}
+.item_list li:last-child{margin-right: 70px;}
+.item_list li:hover img{transform: scale(1.2); transition: transform 0.5s;}
+.item_list li:hover p{text-decoration: underline;}
+.background{width: 140px; height: 140px; background: #f0f0f0; border-radius: 50%; box-shadow: 3px 3px 8px #ccc; position: relative; overflow: hidden;}
+.item_b{position: absolute;}
+
+.item_list li:nth-child(1) .item_b{top: 20px; left: 30px;}
+.item_list li:nth-child(2) .item_b{top: 24px; left: 26px;}
+.item_list li:nth-child(3) .item_b{top: 16px; left: 33px;}
+.item_list li:nth-child(4) .item_b{top: 48px; left: 10px;}
+.item_list li:nth-child(5) .item_b{top: 34px; left: 18px;}
+
+.item_txt{margin-top: 30px}
+.item_txt p{font-size: 16px; color: #555; line-height: 1.5; text-align: center;}
+.item_txt p span{font-size: 18px; color: #333;}
+
+
+/* brand_banner */
+.brand_banner{margin-top: 100px;}
+.banner{width: 1200px; height: 120px; background: #deb887; border-radius: 5px; position: relative;}
+.banner_img{position: absolute; left: 192px; top: -15px;}
+.banner map area{outline: none;}
+
+/* sport_area */
+.sport_area{margin-top: 113px;}
+.sport_bg{width: 950px; height: 346px; background: #ebebeb; position: relative;}
+.sport_img{position: absolute; top: -356px; left: 70px;}
+.sport_play{position: absolute; width: 520px; height: 300px; border: none; top: -200px; left: 540px;}
+
+
+/* open_area */
+.open_area{margin-top: 252px; width: 100%; height: 250px; background: #95cb8b; padding-top: 60px; box-sizing: border-box;}
+
+.open_left{float: left; margin-left: 20px;}
+.open_right{float: right; margin-right: 20px;}
+.open_right h2{margin-top: 50px; text-align: center; font-size: 26px; color: #fff; line-height: 1.5; font-weight: 700;}
+.open_right h2 span{font-size: 30px; color: #44a7da;}
+.open_right>p{text-align: center; font-size: 14px; color: #fff; font-weight: 400;}
+
+.open_list{margin-top: 70px;}
+.open_list li{float: left; margin-left: 30px;}
+
+.open_bg{width: 118px; height: 100px; background: #ebebeb; position: relative; border-radius: 5px;}
+.open_item{position: absolute;}
+.open_list li:nth-child(1) .open_item{top: 36px; left: 15px;}
+.open_list li:nth-child(2) .open_item{top: 5px; left: 18px;}
+.open_list li:nth-child(3) .open_item{top: 20px; left: 17px;}
+
+.open_txt{margin-top: 30px; text-align: center;}
+.open_txt p{font-size: 16px; color: #555; line-height: 1.5;}
+.open_txt p span{font-size: 12px; color: #888; margin-right: 4px;}
+.open_txt p s{font-size: 10px; color: #888;}
+
+#last_li{width: 118px; height: 148px; border: 1px solid #ddd; background: #fff; border-radius: 5px;}
+#last_li p{text-align: center; font-size: 12px; color: #aaa; padding-top: 60px; box-sizing: border-box;}
+
+/* sns_area */
+.sns_area{margin-top: 372px; height: 860px;}
+.sns_bg{width: 1100px; height: 350px; background: #dae1e9; float: right; position: relative;}
+.sns_img{position: absolute; top: -10px; right: 0;}
+.sns_icon_area{position: absolute; bottom: -830px;}
+.icon_list li{float: left; margin:5px;}
+.icon_list li a{display: block; width: 76px; height: 55px;}
+
+

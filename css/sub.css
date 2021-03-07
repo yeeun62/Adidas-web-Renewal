@@ -1,0 +1,78 @@
+.sub_inner{width: 1080px; margin: auto;}
+
+/* sub_visual */
+.sub_visual img{width: 100%;}
+
+
+/* chap1 */
+.chap1{margin: 90px; margin-bottom: 120px; height: 756px;}
+.chap_title{margin-bottom: 60px;}
+.chap_title p:nth-of-type(1){font-size: 22px; color: #444; margin-bottom: 8px; font-weight: 500;}
+.chap_title h2{font-size: 26px; color: #333; margin-bottom: 4px; font-weight: 700;}
+.chap_title p:nth-of-type(2){font-size: 20px; color: #444; font-weight: 400;}
+
+.chap1_left{float: left; position: relative;}
+.chap1_left div{float: left;}
+.chap1_left_txt{margin-left: 20px;}
+.chap1_left_txt p span{font-weight: 700; color: #222;}
+.chap1_left_txt,.chap1_right_txt p{font-size: 20px; line-height: 1.5; color: #333;}
+
+.chap1_right{float: right;}
+.chap1_right div{float: left;}
+.chap1_right_txt{text-align: right; margin-right: 20px; position: absolute; right: 340px; top: 640px;}
+.chap1_right_txt p span{font-weight: 700; color: #222;}
+.chap1_right_img{position: absolute; right: 0px; top: 280px;}
+.chap1_bg{position: absolute; right: 332px; top: 350px;}
+
+
+/* chap2 */
+.chap2{margin: auto; background: url(../img/sub/chap2_bg.png) no-repeat; width: 1508px; height: 1798px;}
+
+.chap2_right{float: right; position: relative;}
+.chap2_left{float: left;}
+
+.chap2_card{width: 450px; height: 522px; box-shadow: 0 0 5px rgba(0,0,0,0.8); }
+.chap2_card_img{width: 450px; height: 450px;}
+#card_1 .chap2_card_img{background: #f1e9fb;}
+#card_2 .chap2_card_img{background: #c9bda1;}
+#card_3 .chap2_card_img{background: #7b7878;}
+#card_4 .chap2_card_img{background: #d0f1fe;}
+.chap2_card_img img{padding: 6px 8px; box-sizing: border-box;}
+.chap2_card_txt{width: 450px; height: 72px; background: #fff;}
+.chap2_card_txt h3{font-size: 20px; text-align: center; font-weight: 700;line-height: 1.7; color: #333; padding-top: 8px; box-sizing: border-box;}
+.chap2_card_txt p{font-size: 18px; text-align: center; color: #555;}
+
+#card_2{margin-top: 178px;}
+#card_3{position: absolute; top: 350px;}
+#card_4{position: absolute; top: 1050px;}
+
+
+/* chap3 */
+.chap3{margin-top: 0px; margin-bottom: 70px;}
+.chap3_bg{background:  url(../img/sub/chap3_backimg.png) no-repeat; width: 1200px; height: 928px;}
+
+.chap3_logo1,.chap3_logo3{float: right; height: 309px; text-align: right;}
+.chap3_logo2{float: left; height: 309px; text-align: left;}
+
+.chap3_logo1 div,.chap3_logo3 div{float: right;}
+.chap3_logo2 div{float: left;}
+
+.logo1_txt,.logo3_txt{margin-right: 60px; line-height: 1.5; font-size: 18px; color: #333;}
+.logo2_txt{margin-left: 60px; line-height: 1.5; font-size: 18px; color: #333;}
+.logo1_txt{padding-top: 96px;}
+.logo1_txt p span{color: #231816; font-weight: 700;}
+.logo2_txt{padding-top: 86px;}
+.logo2_txt p span{color: #1c76b2; font-weight: 700;}
+.logo3_txt{padding-top: 74px;}
+.logo3_txt p span{color: #000; font-weight: 700;}
+
+.logo1_img,.logo3_img{line-height: 309px;}
+.logo2_img{line-height: 309px;}
+
+
+
+
+
+
+
+

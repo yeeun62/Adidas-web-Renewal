@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>아디다스</title>
+    <script src="libs/jquery-1.12.4.min.js"></script>
+    <script src="libs/bxSlider/jquery.bxslider.min.js"></script>
+    <link href="libs/bxSlider/jquery.bxslider.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">                                      
+    <link href="css/main.css" rel="stylesheet">
+    <script src="script/main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="header_all">
+                <div class="inner">
+                    <h1 class="hlogo"><a href="#">로고</a></h1>
+                    <nav>   
+                        <ul class="gnb">
+                            <li class="depth1 clearfix">
+                                <a href="#">MEN</a>
+                                <ul class="depth2">
+                                    <li><a href="#">MEN</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#">인기상품</a></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">스포츠</a></li>
+                                    <li><a href="#">SET</a></li>
+                                </ul>
+                            </li>
+                            <!--//MEN-->
+                            <li class="depth1">
+                                <a href="#">WOMAN</a>
+                                <ul class="depth2">
+                                    <li><a href="#">WOMAN</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#">인기상품</a></li>
+                                    <li><a href="#">신발</a></li>
+                                    <li><a href="#">의류</a></li>
+                                    <li><a href="#">스포츠</a></li>
+                                    <li><a href="#">SET</a></li>
+                                </ul>
+                            </li>
+                            <!--//WOMAN-->
+                            <li class="depth1">
+                                <a href="#">KIDS</a>
+                                <ul class="depth2">
+                                    <li><a href="#">KIDS</a></li>
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#">인기상품</a></li>
+                                    <li><a href="#">유아</a></li>
+                                    <li><a href="#">남아</a></li>
+                                    <li><a href="#">여아</a></li>
+                                </ul>
+                            </li>
+                            <!--//KIDS-->
+                            <li class="depth1">
+                                <a href="#">ACC</a>
+                                <ul class="depth2">
+                                    <li><a href="#">ACC</a></li>
+                                    <li><a href="#">모자</a></li>
+                                    <li><a href="#">가방</a></li>
+                                    <li><a href="#">양말</a></li>
+                                    <li><a href="#">벨트</a></li>
+                                    <li><a href="#">장갑</a></li>
+                                </ul>
+                            </li>
+                            <!--//ACC-->
+                        </ul>
+                         <div class="search">
+                            <div class="search_area">
+                                <label for="txt"></label>
+                                <input type="text" placeholder="search" id="txt">
+                                <label for="search"></label>
+                                <input type="submit" value="검색" id="search">
+                            </div>
+                        </div>
+                        <ul class="util">
+                            <li><a href="#">LOG IN</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                        </ul>
+                    </nav>
+                </div><!--//inner-->
+                <div class="gnb_bg"></div>
+            </div><!--//-->
+        </header>
+        <section class="container" id="main">
+            <div class="mainvisual">
+                <div class="slider">
+                    <a href="#"><img src="img/main/main_01.png" alt="송민호" class="main_visual_img"></a>
+                    <a href="#"><img src="img/main/main_02.png" alt="블랙프라이데이" class="main_visual_img"></a>
+                    <a href="#"><img src="img/main/main_03.png" alt="베컴" class="main_visual_img"></a>
+                    <a href="#"><img src="img/main/main_04.png" alt="제니" class="main_visual_img"></a>
+                    <a href="#"><img src="img/main/main_05.png" alt="imposible is nothing" class="main_visual_img"></a>
+                    <a href="#"><img src="img/main/main_06.png" alt="크리스마스" class="main_visual_img"></a>
+                </div><!--slider-->
+                <div class="pager">
+                    <ul class="pager_icon">
+                        <li><a href="#" data-slide-index="0">1</a></li>
+                        <li><a href="#" data-slide-index="1">2</a></li>
+                        <li><a href="#" data-slide-index="2">3</a></li>
+                        <li><a href="#" data-slide-index="3">4</a></li>
+                        <li><a href="#" data-slide-index="4">5</a></li>
+                        <li><a href="#" data-slide-index="5">6</a></li>
+                    </ul>
+                </div><!--pager-->
+                <div class="control">
+                    <a href="#" id="prevbtn">이전</a>
+                    <a href="#" id="nextbtn">이후</a>
+                </div><!--control-->
+            </div>
+            <!--mainvisual-->
+            <div class="best_item clearfix">
+                <div class="inner">
+                    <div class="clearfix">
+                        <div class="best_txt">
+                            <h2><a href="#">BEST ITEM</a></h2>
+                            <p>최고의 인기상품들을 소개합니다.</p>
+                        </div><!--best_txt-->
+                        <ul class="kategorie">
+                            <li><a href="#">ALL</a></li>
+                            <li><a href="#">MEN</a></li>
+                            <li><a href="#">WOMAN</a></li>
+                            <li><a href="#">ACC</a></li>
+                        </ul><!--kategorie-->
+                    </div>
+                    <div class="item">
+                        <a href="#" class="item_arrow" id="arrow_left"><img src="img/main/best_arrow_left.png" alt="왼쪽화살표"></a>
+                        <ul class="item_list">
+                            <li>
+                                <a href="#">
+                                    <div class="item_thum">
+                                        <div class="background">
+                                            <img src="img/main/best_01.png" alt="쉐르파 자켓" class="item_b">
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <p>쉐르파 리버서블 자켓<br>
+                                        <span>169,000</span>원</p>
+                                    </div>
+                                </a>
+                            </li><!--1-->
+                            <li>
+                                <a href="#">
+                                    <div class="item_thum">
+                                        <div class="background">
+                                            <img src="img/main/best_02.png" alt="크루삭스" class="item_b">
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <p>크루삭스<br>
+                                        <span>13,300</span>원</p>
+                                    </div>
+                                </a>
+                            </li><!--2-->
+                            <li>
+                                <a href="#">
+                                    <div class="item_thum">
+                                        <div class="background">
+                                            <img src="img/main/best_03.png" alt="ID 스타디엄 풀집" class="item_b">
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <p>ID 스타디엄 풀집<br>
+                                        <span>69,300</span>원</p>
+                                    </div>
+                                </a>
+                            </li><!--3-->
+                            <li>
+                                <a href="#">
+                                    <div class="item_thum">
+                                        <div class="background">
+                                            <img src="img/main/best_04.png" alt="제트엑스 700 HD" class="item_b">
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <p>제트엑스 700 HD<br>
+                                        <span>65,400</span>원</p>
+                                    </div>
+                                </a>
+                            </li><!--4-->
+                            <li>
+                                <a href="#">
+                                    <div class="item_thum">
+                                        <div class="background">
+                                            <img src="img/main/best_05.png" alt="트레포일 버켓" class="item_b">
+                                        </div>    
+                                    </div>
+                                    <div class="item_txt">
+                                        <p>트레포일 버켓<br>
+                                        <span>39,000</span>원</p>
+                                    </div>
+                                </a>
+                            </li><!--5-->
+                        </ul>
+                        <a href="#" class="item_arrow" id="arrow_right"><img src="img/main/best_arrow_right.png" alt="왼쪽화살표"></a>
+                    </div>
+                </div><!--inner-->
+            </div>
+            <!--mainvisual-->
+            <div class="brand_banner">
+                <div class="inner">
+                    <div class="banner">
+                        <img src="img/main/banner_img.png" alt="아디다스 브랜드 스토리" class="banner_img" usemap="#story">
+                        <map name="story">
+                            <area alt="브랜드스토리보러가기" shape="rect" coords="893,99,975,125" target="_blank" href="sub.html">
+                        </map>
+                    </div>
+                </div>
+            </div>
+            <!--brand_banner-->
+            <div class="sport_area">
+                <div class="sport_bg"></div>
+                <div class="inner">
+                    <img src="img/main/sport_img.png" alt="농구선수" class="sport_img">
+                    <iframe src="https://www.youtube.com/embed/gQgXWHIJ8kk" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="sport_play" title="아디다스스포츠 동영상"></iframe>
+                </div>
+            </div>
+            <!--sport_area-->
+            <div class="open_area">
+                <div class="inner">
+                    <div class="open_left">
+                        <img src="img/main/sale_img.png" alt="프리미엄아울렛" class="open_img">
+                    </div>
+                    <div class="open_right">
+                        <h2>다산 프리미엄 아울렛<br>GRAND OPEN <span>~30%</span></h2>
+                        <p>일부 품목 제외</p>
+                        <ul class="open_list">
+                            <li>
+                                <a href="#">
+                                    <div class="open_thum">
+                                        <div class="open_bg">
+                                            <img src="img/main/sale_01.png" alt="벨트" class="open_item">
+                                        </div>
+                                    </div>
+                                    <div class="open_txt">
+                                        <p>71,200<span>원</span><s>89000</s></p>
+                                    </div>
+                                </a>
+                            </li><!--1-->
+                            <li>
+                                <a href="#">
+                                    <div class="open_thum">
+                                        <div class="open_bg">
+                                            <img src="img/main/sale_02.png" alt="모자" class="open_item">
+                                        </div>
+                                    </div>
+                                    <div class="open_txt">
+                                        <p>28,000<span>원</span><s>35000</s></p>
+                                    </div>
+                                </a>
+                            </li><!--2-->
+                            <li>
+                                <a href="#">
+                                    <div class="open_thum">
+                                        <div class="open_bg">
+                                            <img src="img/main/sale_03.png" alt="헤어밴드" class="open_item">
+                                        </div>
+                                    </div>
+                                    <div class="open_txt">
+                                        <p>7,000<span>원</span><s>10000</s></p>
+                                    </div>
+                                </a>
+                            </li><!--3-->
+                            <li id=open_last_list>
+                                <a href="#">
+                                    <div id="last_li"><p>+<br>더보기</p></div>
+                                </a>
+                            </li><!--4-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--open_area-->
+            <div class="sns_area clearfix">
+                <div class="sns_bg"></div>
+                <div class="inner">
+                    <div class="sns_img_area">
+                        <img src="img/main/sns_img.png" alt="sns홍보 사진" class="sns_img">
+                    </div>
+                    <div class="sns_icon_area">
+                        <ul class="icon_list">
+                            <li><a href="#"><img src="img/main/sns_1.png" alt="인스타그램"></a></li>
+                            <li><a href="#"><img src="img/main/sns_2.png" alt="페이스북"></a></li>
+                            <li><a href="#"><img src="img/main/sns_3.png" alt="트위터"></a></li>
+                            <li><a href="#"><img src="img/main/sns_4.png" alt="유튜브"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_all">
+                <div class="inner">
+                    <div class="footer_left">
+                        <p>호스팅서비스사업자 : 아디다스코리아(유)</p>
+                        <p>서울특별시 서초구 서초대로 74길 4, 삼성생명 서초타워 23층 (06620)</p>
+                        <p>통신판매업신고 : 2007-서울서초-10391 / 개인정보관리책임자 : 장영태 </p>
+                        <p>이메일 : adiclub_korea@adidas.com / 고객센터 : 1588-8241</p>
+                        <address>adidas Korea, LLC. All Rights Reserved.</address>
+                        <ul class="policy clearfix">
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_right">
+                        <h1 class="flogo"><a href="#">로고</a></h1>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
